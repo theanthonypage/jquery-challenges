@@ -44,11 +44,25 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
 }
+
 @media (max-width: 800px) {
   .container {
     padding: 0 1em;
   }
 }
+
+
+@media (min-width:480px){
+  button{
+    display:none;
+  }
+}
+
+#hamburger {
+  max-width:25px;
+  height:25px;
+}
+
 
 /* NAV */
 
@@ -76,6 +90,7 @@ a:hover {
   .nav li {
     display: block;
   }
+  .nav-main{display:none;}
 }
 
 /* PANELS */
